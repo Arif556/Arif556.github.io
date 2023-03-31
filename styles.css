@@ -19,7 +19,6 @@ table, td, th {
 
 body {
     min-height: 100vh;
-
     justify-content: center;
     align-items: center;
 }
@@ -39,9 +38,33 @@ table, th, td {
     padding: 1rem;
 }
 
+
+
+table tr:first-child {
+  background-color: #21374f89;
+}
+
+
+
+
+
+
+
+
+
 html {
-    height:240% ;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+
+/*--------background responsive----------*/
+
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+/*---------------------------------------*/
+
 
 }
 
@@ -93,13 +116,14 @@ html {
       transform: translateY(-2000px);
     }
   }
-  
+/*-----------------------------------------------------------*/  
 
 
 
 
 
-/*-----------------------parallax-----------------------*/
+/*-----------------------parallax bintang-bintang-----------------------*/
+
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
 #stars1 {
     width: 1px;
