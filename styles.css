@@ -45,14 +45,75 @@ table tr:first-child {
 }
 
 
-/*----*/
+/*-------Hightligt setiap tanggal-------*/
+
 .highlight {
   background-color: #23808289;
 }
 
+/*--------------------------------------*/
 
 
 
+/*-------Warna tag Ariiff-------*/
+
+#cpr {
+  font-size: 14px;
+}
+
+a:link {
+  color: rgb(160, 252, 252);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(160, 252, 252);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: rgb(159, 180, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(0, 136, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*----------------------------*/
+
+/*-------Sumber-------*/
+
+#sumber {
+  font-size: 12px;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
+
+#link_sumber:link {
+  color: rgb(160, 252, 252);
+  background-color: transparent;
+  text-decoration: none;
+}
+#link_sumber:visited {
+  color: rgb(160, 252, 252);
+  background-color: transparent;
+  text-decoration: none;
+}
+#link_sumber:hover {
+  color: rgb(159, 180, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+#link_sumber:active {
+  color: rgb(0, 136, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*---------------------*/
 
 
 
